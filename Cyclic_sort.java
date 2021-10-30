@@ -22,5 +22,14 @@ public class cyclic_sort {
             else
                 i++;
         }
+        //This is the Swap Method and is used to swap
+    private static void swap(int[] arr, int i, int i1) {
+
+        int temp=0;
+       temp=arr[i];
+        arr[i]=arr[i1];
+        arr[i1]=temp;
+    }
+
 
     }
